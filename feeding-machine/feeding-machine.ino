@@ -9,14 +9,14 @@
 #define SERVO_PIN 13
 
 // WiFi credentials
-const char* ssid = "cahaya majun";
-const char* password = "cahaya89";
+const char* ssid = "YOUR WIFI SSID";
+const char* password = "YOUR WIFI PASSWORD";
 
 // MQTT broker setup
-const char* mqtt_server = "203.194.113.47";
+const char* mqtt_server = "YOUR MQTT SERVER URL";
 const int mqtt_port = 1883;  // Port default MQTT
-const char* broker_username = "garudahacks";
-const char* broker_password = "asustufgaming";
+const char* broker_username = "YOUR BROKER USERNAME";
+const char* broker_password = "YOUR BROKER PASSWORD";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
